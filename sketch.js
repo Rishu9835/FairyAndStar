@@ -52,7 +52,7 @@ function draw() {
 
 function keyPressed() {
 	//write code here
-	fairyVoice.play();
+	
 	if(keyCode === LEFT_ARROW){
 		fairy.x = fairy.x-2;
 	}
